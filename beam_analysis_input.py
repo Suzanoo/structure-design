@@ -1,8 +1,7 @@
 import beam_analysis as analysis
 
 #https://en.wikipedia.org/wiki/Young%27s_modulus
-E = 20e9 # Ec, GPa 
-# E = 200e9 # Es, GPa
+E = 200e9 # Es, GPa 
 # https://optimalbeam.com/section-properties.php 
 # Rec 30x40 cm
 I = 67500e-8 #m4

@@ -599,7 +599,6 @@ def main(E, I, spans, s, loads, R0):
     ##User input
     print("PROPERTIES :")
     #https://en.wikipedia.org/wiki/Young%27s_modulus
-    # E = 20e9 # Ec, GPa 
     # E = 200e9 # Es, GPa
     # https://optimalbeam.com/section-properties.php 
     # I = 252*10e-8 #m4
@@ -731,7 +730,7 @@ def main(E, I, spans, s, loads, R0):
 ##  Recheck :  https://platform.skyciv.com/beam
 ### comment out all below to run code ###
 '''
-E = 20e9 #Ec, GPa 
+E = 200e9 #Es, GPa 
 I = 67500e-8 #m4
 
 spans = [10.0, 5.0]
