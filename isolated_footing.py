@@ -126,7 +126,7 @@ def main():
 
     global B, L, bc, hc,Mux, Muy
     print(f"DATABASE")
-    df = pd.read_csv('Deform_Bar.csv')
+    df = pd.read_csv('Data/Deform_Bar.csv')
     print(tabulate(
         df,
         headers=df.columns,
